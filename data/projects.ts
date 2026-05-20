@@ -25,7 +25,7 @@ export const projects: Project[] = [
     description: 'Multi-module platform (Admin, Car Owner, User) with end-to-end booking flow. Integrated real-time chat via Firebase and optimized UI responsiveness across all device sizes.',
     image: '/car-rental.jpg',
     tags: ['React.js', 'Firebase', 'REST API', 'Responsive Design'],
-    link: '#',
+    link: '',
     featured: true,
   },
   {
@@ -51,5 +51,14 @@ export const projects: Project[] = [
     image: '/vehicle-insurance.jpg',
     tags: ['React.js', 'Multi-step Forms', 'State Management', 'TypeScript'],
     link: '#',
+  },
+  {
+    id: '7',
+    title: 'Rankify - AI-Powered Online Tools Platform',
+    description: 'Comprehensive SaaS platform offering 50+ free online tools for PDF editing, SEO optimization, AI writing, content generation, and business utilities. Features categorized tool discovery, built-in blog, real-time search, and Google AdSense monetization. Serves thousands of users monthly with privacy-first approach requiring no signup for core utilities.',
+    image: '/rankify.jpg',
+    tags: ['Next.js', 'React.js', 'Node.js', 'MongoDB', 'Google AdSense', 'AI Integration', 'SEO Optimized'],
+    link: 'https://rankify.in/',
+    featured: true,
   },
 ]

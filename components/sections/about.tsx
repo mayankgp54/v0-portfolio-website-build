@@ -7,9 +7,9 @@ import { Card } from '@/components/ui/card'
 
 export function AboutSection() {
   const stats = [
-    { label: 'Projects Completed', value: 9 },
+    { label: 'Projects Completed', value: 7 },
     { label: 'Years Experience', value: 4 },
-    { label: 'Employee of the Month Awards', value: 2 },
+    { label: 'Active Users (Rankify)', value: '5000+' },
   ]
 
   return (
@@ -35,11 +35,11 @@ export function AboutSection() {
             </p>
 
             <p className="text-lg text-muted-foreground">
-              At Moon Technolabs, I engineered reusable component libraries, reduced page load times by 30%, designed robust backend APIs with Express.js, and led implementation of real-time features using Firebase across multiple product lines (Startizta social platform, Keicho HRM, insurance systems).
+              At Moon Technolabs, I engineered reusable component libraries, reduced page load times by 30%, designed robust backend APIs with Express.js, and led implementation of real-time features using Firebase across multiple product lines (Startizta social platform, Keicho HRM, insurance systems). Additionally, I developed and launched Rankify, a comprehensive AI-powered tools platform with 50+ utilities, integrated Google AdSense monetization, and serve 5000+ monthly active users.
             </p>
 
             <p className="text-lg text-muted-foreground">
-              I&apos;m passionate about building scalable full-stack digital products, mentoring junior developers, and contributing to innovative projects with modern MERN technologies. Recognized twice as Employee of the Month for exceptional contributions. Available for immediate joining.
+              I&apos;m passionate about building scalable full-stack digital products, monetizing SaaS platforms with AdSense and subscriptions, and contributing to innovative projects with modern MERN technologies. Recognized for exceptional contributions to user acquisition and product scaling. Available for immediate joining.
             </p>
           </motion.div>
 
@@ -49,7 +49,7 @@ export function AboutSection() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
-            className="grid grid-cols-1 gap-4"
+            className="grid grid-cols-1 gap-4 lg:grid-cols-2"
           >
             {stats.map((stat, index) => (
               <Card key={index} className="p-6">
@@ -59,6 +59,11 @@ export function AboutSection() {
                 <p className="text-muted-foreground mt-2">{stat.label}</p>
               </Card>
             ))}
+            <Card className="p-6 bg-gradient-to-br from-primary/10 to-transparent border-primary/50">
+              <p className="text-sm font-semibold text-primary mb-2">Featured Achievement</p>
+              <p className="text-lg font-bold text-foreground">Rankify SaaS Platform</p>
+              <p className="text-sm text-muted-foreground mt-2">50+ tools, Google AdSense monetized, 5000+ MAU, SEO optimized</p>
+            </Card>
           </motion.div>
         </div>
       </div>

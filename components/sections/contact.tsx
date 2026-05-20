@@ -54,7 +54,7 @@ export function ContactSection() {
                   <p className="text-sm text-muted-foreground font-medium mb-2">{info.label}</p>
                   <a
                     href={info.link}
-                    className="text-lg font-semibold hover:text-primary transition"
+                    className="text-lg font-semibold hover:text-primary transition break-all"
                   >
                     {info.value}
                   </a>
