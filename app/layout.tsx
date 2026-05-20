@@ -1,15 +1,21 @@
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import { ThemeProvider } from '@/components/theme-provider'
 import './globals.css'
 
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'Portfolio - Full Stack Developer',
+  description: 'Innovative full stack developer crafting digital experiences. Explore my projects, skills, and expertise.',
   generator: 'v0.app',
+  openGraph: {
+    title: 'Portfolio - Full Stack Developer',
+    description: 'Innovative full stack developer crafting digital experiences.',
+    type: 'website',
+  },
   icons: {
     icon: [
       {
@@ -35,9 +41,11 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-background scroll-smooth" suppressHydrationWarning>
       <body className="font-sans antialiased">
-        {children}
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+          {children}
+        </ThemeProvider>
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>
