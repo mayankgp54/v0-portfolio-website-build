@@ -2,27 +2,27 @@ import { Skill } from '@/types'
 
 export const skills: Skill[] = [
   {
-    category: 'Frontend',
-    items: ['React.js', 'Next.js', 'TypeScript', 'JavaScript (ES6+)', 'HTML5', 'CSS3', 'Tailwind CSS', 'Bootstrap', 'Framer Motion'],
+    category: 'Frontend (React)',
+    items: ['React.js', 'Next.js', 'TypeScript', 'JavaScript (ES6+)', 'HTML5', 'CSS3', 'Tailwind CSS', 'Bootstrap', 'Framer Motion', 'Responsive Design'],
   },
   {
     category: 'State Management',
-    items: ['Redux Toolkit', 'Context API', 'React Query'],
+    items: ['Redux Toolkit', 'Context API', 'React Query', 'Zustand'],
   },
   {
-    category: 'Backend',
-    items: ['Node.js', 'Express.js', 'GraphQL', 'REST API Integration', 'Firebase'],
+    category: 'Backend (Node.js)',
+    items: ['Node.js', 'Express.js', 'REST APIs', 'GraphQL', 'Middleware Development', 'Authentication & Authorization'],
   },
   {
-    category: 'Database',
-    items: ['MongoDB', 'MySQL'],
+    category: 'Database (MongoDB & MySQL)',
+    items: ['MongoDB', 'Mongoose ODM', 'MySQL', 'Database Design', 'Query Optimization', 'Indexing'],
   },
   {
-    category: 'Tools & Development',
-    items: ['Git', 'GitHub', 'VS Code', 'Postman', 'CI/CD', 'Agile/Scrum'],
+    category: 'Tools & Services',
+    items: ['Git/GitHub', 'Firebase', 'Postman', 'JWT Authentication', 'CORS', 'API Documentation'],
   },
   {
     category: 'Core Strengths',
-    items: ['Frontend Architecture', 'Performance Optimization', 'Responsive Design', 'Cross-Browser Compatibility', 'Debugging', 'Team Collaboration'],
+    items: ['Full-Stack Architecture', 'Performance Optimization (30%+)', 'Code Refactoring', 'Team Leadership', 'Mentoring', 'Agile/Scrum', 'Problem Solving'],
   },
 ]

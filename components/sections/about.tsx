@@ -17,7 +17,7 @@ export function AboutSection() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionTitle
           title="About Me"
-          subtitle="4+ years of experience architecting scalable web applications with React.js and Next.js"
+          subtitle="4+ years of experience building full-stack applications with MERN Stack (MongoDB, Express, React, Node.js)"
           centered
         />
 
@@ -31,15 +31,15 @@ export function AboutSection() {
             className="space-y-6"
           >
             <p className="text-lg text-muted-foreground">
-              I&apos;m a Senior React.js Developer with 4+ years of hands-on experience architecting and delivering scalable, high-performance web applications. My expertise spans React.js, Next.js, TypeScript, and Redux Toolkit with a proven track record of optimizing frontend performance and implementing complex features.
+              I&apos;m a MERN Stack Developer with 4+ years of hands-on experience architecting and delivering scalable, full-stack web applications. My expertise spans React.js, Next.js, Node.js, Express.js, MongoDB, and MySQL with a proven track record of optimizing frontend and backend performance.
             </p>
 
             <p className="text-lg text-muted-foreground">
-              At Moon Technolabs, I engineered reusable component libraries, reduced page load times by 30%, and led implementation of real-time features using Firebase across multiple product lines (HRM, social platforms, insurance systems).
+              At Moon Technolabs, I engineered reusable component libraries, reduced page load times by 30%, designed robust backend APIs with Express.js, and led implementation of real-time features using Firebase across multiple product lines (Startizta social platform, Keicho HRM, insurance systems).
             </p>
 
             <p className="text-lg text-muted-foreground">
-              I&apos;m passionate about building scalable digital products, mentoring junior developers, and contributing to innovative projects with modern technologies. Recognized twice as Employee of the Month for exceptional contributions.
+              I&apos;m passionate about building scalable full-stack digital products, mentoring junior developers, and contributing to innovative projects with modern MERN technologies. Recognized twice as Employee of the Month for exceptional contributions. Available for immediate joining.
             </p>
           </motion.div>
 

@@ -27,11 +27,11 @@ export function HeroSection() {
           </h1>
 
           <h2 className="text-2xl sm:text-3xl font-semibold text-muted-foreground">
-            Senior React.js Developer &amp; Frontend Architect
+            MERN Stack Developer &amp; Full-Stack Architect
           </h2>
 
           <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto text-balance">
-            I craft beautiful, scalable, and high-performance web applications with React.js and Next.js. Specialized in optimizing frontend performance (30%+ load time reduction) and architecting reusable component libraries.
+            I craft beautiful, scalable, and high-performance web applications using MERN stack (MongoDB, Express.js, React.js, Node.js). Specialized in optimizing frontend performance (30%+ load time reduction), architecting reusable component libraries, and building full-stack solutions.
           </p>
 
           <div className="flex gap-4 justify-center flex-wrap pt-4">
