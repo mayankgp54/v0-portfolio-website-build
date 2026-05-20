@@ -31,4 +31,14 @@ export const services: Service[] = [
     title: 'Team Leadership & Mentoring',
     description: 'Lead development teams, conduct code reviews, and mentor junior developers. Implement best practices and establish clean code standards across projects.',
   },
+  {
+    icon: 'DollarSign',
+    title: 'SaaS Platform Development & Monetization',
+    description: 'Build and launch SaaS platforms from scratch. Expertise in Google AdSense integration, subscription models, user acquisition, and scaling to 5000+ MAU. Proven track record with Rankify.',
+  },
+  {
+    icon: 'TrendingUp',
+    title: 'AI-Powered Features & Integration',
+    description: 'Integrate AI capabilities including PDF analysis (ChatPDF), content generation, SEO optimization, and AI detection. Build intelligent tools that enhance user productivity.',
+  },
 ]

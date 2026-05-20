@@ -31,7 +31,7 @@ export function HeroSection() {
           </h2>
 
           <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto text-balance">
-            I craft beautiful, scalable, and high-performance web applications using MERN stack (MongoDB, Express.js, React.js, Node.js). Specialized in optimizing frontend performance (30%+ load time reduction), architecting reusable component libraries, and building full-stack solutions.
+            I craft beautiful, scalable, and high-performance web applications using MERN stack. Specialized in optimizing frontend performance (30%+ reduction), architecting reusable component libraries, and building monetized SaaS platforms. Creator of Rankify, serving 5000+ monthly users with Google AdSense integration.
           </p>
 
           <div className="flex gap-4 justify-center flex-wrap pt-4">

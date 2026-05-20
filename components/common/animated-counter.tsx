@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from 'react'
 
 interface AnimatedCounterProps {
-  end: number
+  end: number | string
   duration?: number
   suffix?: string
 }
@@ -12,6 +12,7 @@ export function AnimatedCounter({ end, duration = 2000, suffix = '' }: AnimatedC
   const [count, setCount] = useState(0)
   const ref = useRef(null)
   const [isVisible, setIsVisible] = useState(false)
+  const isString = typeof end === 'string'
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -31,14 +32,15 @@ export function AnimatedCounter({ end, duration = 2000, suffix = '' }: AnimatedC
   }, [isVisible])
 
   useEffect(() => {
-    if (!isVisible) return
+    if (!isVisible || isString) return
 
     let startTime: number
+    const endNum = end as number
     const animate = (currentTime: number) => {
       if (!startTime) startTime = currentTime
       const progress = (currentTime - startTime) / duration
-      const currentCount = Math.floor(end * progress)
-      setCount(Math.min(currentCount, end))
+      const currentCount = Math.floor(endNum * progress)
+      setCount(Math.min(currentCount, endNum))
 
       if (progress < 1) {
         requestAnimationFrame(animate)
@@ -46,11 +48,11 @@ export function AnimatedCounter({ end, duration = 2000, suffix = '' }: AnimatedC
     }
 
     requestAnimationFrame(animate)
-  }, [isVisible, end, duration])
+  }, [isVisible, end, duration, isString])
 
   return (
     <div ref={ref}>
-      {count}
+      {isString ? end : count}
       {suffix}
     </div>
   )
