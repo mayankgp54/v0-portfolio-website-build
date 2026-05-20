@@ -6,7 +6,7 @@ import { SectionTitle } from '@/components/common/section-title'
 import { Card } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { projects } from '@/data/projects'
-import { Github, ExternalLink } from 'lucide-react'
+import { ExternalLink } from 'lucide-react'
 
 export function ProjectsSection() {
   const containerVariants = {
@@ -71,20 +71,12 @@ export function ProjectsSection() {
                       </span>
                     ))}
                   </div>
-                  <div className="flex gap-2">
-                    {project.link && (
-                      <Button size="sm" variant="default" className="gap-2">
-                        <ExternalLink className="w-4 h-4" />
-                        View Project
-                      </Button>
-                    )}
-                    {project.github && (
-                      <Button size="sm" variant="outline" className="gap-2">
-                        <Github className="w-4 h-4" />
-                        Code
-                      </Button>
-                    )}
-                  </div>
+                  {project.link && (
+                    <Button size="sm" variant="default" className="gap-2 w-full">
+                      <ExternalLink className="w-4 h-4" />
+                      View Project
+                    </Button>
+                  )}
                 </div>
               </Card>
             </motion.div>
