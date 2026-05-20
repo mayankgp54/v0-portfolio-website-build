@@ -72,7 +72,12 @@ export function ProjectsSection() {
                     ))}
                   </div>
                   {project.link && (
-                    <Button size="sm" variant="default" className="gap-2 w-full">
+                    <Button
+                      size="sm"
+                      variant="default"
+                      className="gap-2 w-full"
+                      onClick={() => window.open(project.link, '_blank')}
+                    >
                       <ExternalLink className="w-4 h-4" />
                       View Project
                     </Button>
@@ -99,7 +104,7 @@ export function ProjectsSection() {
                   <Card className="p-6 h-full flex flex-col hover:shadow-lg transition-shadow">
                     <h3 className="text-lg font-semibold mb-2">{project.title}</h3>
                     <p className="text-muted-foreground mb-4 flex-1 text-sm">{project.description}</p>
-                    <div className="flex flex-wrap gap-1">
+                    <div className="flex flex-wrap gap-1 mb-4">
                       {project.tags.map((tag) => (
                         <span
                           key={tag}
@@ -109,6 +114,17 @@ export function ProjectsSection() {
                         </span>
                       ))}
                     </div>
+                    {project.link && (
+                      <Button
+                        size="sm"
+                        variant="default"
+                        className="gap-2 w-full"
+                        onClick={() => window.open(project.link, '_blank')}
+                      >
+                        <ExternalLink className="w-4 h-4" />
+                        View Project
+                      </Button>
+                    )}
                   </Card>
                 </motion.div>
               ))}
