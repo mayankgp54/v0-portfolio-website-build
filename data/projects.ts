@@ -25,7 +25,7 @@ export const projects: Project[] = [
     description: 'Multi-module platform (Admin, Car Owner, User) with end-to-end booking flow. Integrated real-time chat via Firebase and optimized UI responsiveness across all device sizes.',
     image: '/car-rental.jpg',
     tags: ['React.js', 'Firebase', 'REST API', 'Responsive Design'],
-    link: '#',
+    link: '',
     featured: true,
   },
   {

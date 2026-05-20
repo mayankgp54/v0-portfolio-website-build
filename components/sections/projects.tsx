@@ -114,17 +114,7 @@ export function ProjectsSection() {
                         </span>
                       ))}
                     </div>
-                    {project.link && (
-                      <Button
-                        size="sm"
-                        variant="default"
-                        className="gap-2 w-full"
-                        onClick={() => window.open(project.link, '_blank')}
-                      >
-                        <ExternalLink className="w-4 h-4" />
-                        View Project
-                      </Button>
-                    )}
+                  
                   </Card>
                 </motion.div>
               ))}
