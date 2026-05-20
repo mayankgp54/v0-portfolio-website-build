@@ -27,19 +27,19 @@ export function ContactSection() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'hello@example.com',
-      link: 'mailto:hello@example.com',
+      value: 'mayankgp5400@gmail.com',
+      link: 'mailto:mayankgp5400@gmail.com',
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567',
+      value: '+91 8980385218',
+      link: 'tel:+918980385218',
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Ahmedabad, Gujarat, India',
       link: '#',
     },
   ]
@@ -49,7 +49,7 @@ export function ContactSection() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionTitle
           title="Get In Touch"
-          subtitle="Let&apos;s discuss your next project"
+          subtitle="Available for immediate joining. Let&apos;s build something amazing together"
           centered
         />
 

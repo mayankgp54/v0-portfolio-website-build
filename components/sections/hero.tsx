@@ -20,14 +20,18 @@ export function HeroSection() {
           className="space-y-6"
         >
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-balance">
-            Hi, I&apos;m a{' '}
+            Hi, I&apos;m{' '}
             <span className="gradient-primary bg-clip-text text-transparent">
-              Full Stack Developer
+              Mayank Prajapati
             </span>
           </h1>
 
+          <h2 className="text-2xl sm:text-3xl font-semibold text-muted-foreground">
+            Senior React.js Developer &amp; Frontend Architect
+          </h2>
+
           <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto text-balance">
-            I craft beautiful, performant web applications that solve real problems. Specializing in modern technologies and best practices.
+            I craft beautiful, scalable, and high-performance web applications with React.js and Next.js. Specialized in optimizing frontend performance (30%+ load time reduction) and architecting reusable component libraries.
           </p>
 
           <div className="flex gap-4 justify-center flex-wrap pt-4">

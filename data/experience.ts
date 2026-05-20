@@ -2,27 +2,15 @@ import { Experience } from '@/types'
 
 export const experience: Experience[] = [
   {
-    company: 'Tech Innovations Inc.',
-    position: 'Senior Full Stack Developer',
-    period: '2022 - Present',
-    description: 'Led development of scalable web applications, mentored junior developers, and implemented best practices for code quality and performance optimization.',
+    company: 'Moon Technolabs Pvt. Ltd.',
+    position: 'React.js Developer',
+    period: 'January 2022 - Present',
+    description: 'Engineered and maintained scalable React.js applications, architecting reusable component libraries and optimizing rendering pipelines. Reduced page load time by ~30% through performance optimization. Managed state with Redux Toolkit across large-scale modules (HRM, social platform, insurance). Implemented secure RBAC for multi-user platforms and delivered real-time features using Firebase.',
   },
   {
-    company: 'Digital Solutions Co.',
-    position: 'Full Stack Developer',
-    period: '2020 - 2022',
-    description: 'Developed and maintained multiple client projects, implemented responsive designs, and optimized database queries for improved performance.',
-  },
-  {
-    company: 'StartUp Ventures',
-    position: 'Junior Developer',
-    period: '2018 - 2020',
-    description: 'Contributed to web application development, participated in code reviews, and gained experience with modern development tools and workflows.',
-  },
-  {
-    company: 'Freelance',
-    position: 'Web Developer',
-    period: '2017 - 2018',
-    description: 'Built custom websites and web applications for various clients, handled project management, and provided technical support.',
+    company: 'Moon Technolabs Pvt. Ltd.',
+    position: 'Frontend Developer (Internship)',
+    period: '6 Months - 2021/2022',
+    description: 'Started career building responsive web interfaces and learning React.js fundamentals. Worked on component development, API integration using Axios, and pixel-perfect UI implementation across multiple projects.',
   },
 ]

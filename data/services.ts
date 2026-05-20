@@ -3,32 +3,32 @@ import { Service } from '@/types'
 export const services: Service[] = [
   {
     icon: 'Code2',
-    title: 'Web Development',
-    description: 'Custom web applications built with modern technologies, responsive design, and optimal performance.',
-  },
-  {
-    icon: 'Palette',
-    title: 'UI/UX Design',
-    description: 'Beautiful and intuitive user interfaces designed with accessibility and user experience in mind.',
+    title: 'React & Next.js Development',
+    description: 'Build scalable, high-performance web applications with React.js and Next.js. Expertise in modern architecture, component design, and SEO-friendly implementations.',
   },
   {
     icon: 'Zap',
     title: 'Performance Optimization',
-    description: 'Speed up your applications with advanced optimization techniques and best practices.',
+    description: 'Optimize application performance with proven techniques. Track record of 30%+ load time reduction through code splitting, lazy loading, and rendering optimization.',
   },
   {
-    icon: 'Database',
-    title: 'Database Design',
-    description: 'Efficient database architecture and schema design for scalable applications.',
+    icon: 'BarChart3',
+    title: 'State Management & Architecture',
+    description: 'Design scalable application architecture using Redux Toolkit, Context API, and React Query. Build maintainable, reusable component libraries.',
   },
   {
-    icon: 'Cloud',
-    title: 'Cloud Solutions',
-    description: 'Deploy and manage applications on cloud platforms with CI/CD pipelines.',
+    icon: 'Lock',
+    title: 'Secure Feature Implementation',
+    description: 'Implement role-based access control (RBAC), secure authentication, and multi-user platforms with proper authorization and data protection.',
   },
   {
-    icon: 'Headphones',
-    title: 'Consulting',
-    description: 'Technical guidance and strategic advice for your development projects.',
+    icon: 'Zap',
+    title: 'Real-time Features',
+    description: 'Integrate real-time functionality using Firebase, WebSockets, and APIs. Build chat systems, notifications, and live data synchronization.',
+  },
+  {
+    icon: 'Users',
+    title: 'Team Leadership & Mentoring',
+    description: 'Lead development teams, conduct code reviews, and mentor junior developers. Implement best practices and establish clean code standards across projects.',
   },
 ]

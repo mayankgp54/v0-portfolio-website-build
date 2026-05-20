@@ -7,9 +7,9 @@ import { Card } from '@/components/ui/card'
 
 export function AboutSection() {
   const stats = [
-    { label: 'Projects Completed', value: 50 },
-    { label: 'Happy Clients', value: 30 },
-    { label: 'Years Experience', value: 6 },
+    { label: 'Projects Completed', value: 9 },
+    { label: 'Years Experience', value: 4 },
+    { label: 'Employee of the Month Awards', value: 2 },
   ]
 
   return (
@@ -17,7 +17,7 @@ export function AboutSection() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionTitle
           title="About Me"
-          subtitle="Passionate about creating innovative digital solutions that make a difference"
+          subtitle="4+ years of experience architecting scalable web applications with React.js and Next.js"
           centered
         />
 
@@ -31,15 +31,15 @@ export function AboutSection() {
             className="space-y-6"
           >
             <p className="text-lg text-muted-foreground">
-              I&apos;m a full stack developer with over 6 years of experience building web applications. I love working with cutting-edge technologies and solving complex problems.
+              I&apos;m a Senior React.js Developer with 4+ years of hands-on experience architecting and delivering scalable, high-performance web applications. My expertise spans React.js, Next.js, TypeScript, and Redux Toolkit with a proven track record of optimizing frontend performance and implementing complex features.
             </p>
 
             <p className="text-lg text-muted-foreground">
-              My journey in tech started with curiosity about how things work. Today, I leverage that mindset to build scalable, maintainable solutions for my clients and users.
+              At Moon Technolabs, I engineered reusable component libraries, reduced page load times by 30%, and led implementation of real-time features using Firebase across multiple product lines (HRM, social platforms, insurance systems).
             </p>
 
             <p className="text-lg text-muted-foreground">
-              When I&apos;m not coding, you can find me contributing to open source projects, writing technical articles, or exploring the latest web technologies.
+              I&apos;m passionate about building scalable digital products, mentoring junior developers, and contributing to innovative projects with modern technologies. Recognized twice as Employee of the Month for exceptional contributions.
             </p>
           </motion.div>
 

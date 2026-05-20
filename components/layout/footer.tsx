@@ -11,10 +11,10 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <h3 className="text-lg font-bold gradient-primary bg-clip-text text-transparent">
-              Portfolio
+              Mayank Prajapati
             </h3>
             <p className="text-sm text-muted-foreground">
-              Full stack developer creating innovative digital solutions.
+              Senior React.js Developer &amp; Frontend Architect. Building scalable, high-performance web applications.
             </p>
           </div>
 
@@ -50,28 +50,16 @@ export function Footer() {
             <h4 className="font-semibold">Follow</h4>
             <div className="flex gap-4">
               <a
-                href="#"
-                className="text-muted-foreground hover:text-foreground transition"
-                aria-label="GitHub"
-              >
-                <Github className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
+                href="https://linkedin.com/in/mayank-prajapati-b24209212"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="#"
-                className="text-muted-foreground hover:text-foreground transition"
-                aria-label="Twitter"
-              >
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
+                href="mailto:mayankgp5400@gmail.com"
                 className="text-muted-foreground hover:text-foreground transition"
                 aria-label="Email"
               >
@@ -84,7 +72,7 @@ export function Footer() {
         {/* Divider */}
         <div className="border-t border-border pt-8">
           <p className="text-center text-sm text-muted-foreground">
-            © {currentYear} Portfolio. All rights reserved.
+            © {currentYear} Mayank Prajapati. All rights reserved. | Available for immediate joining
           </p>
         </div>
       </div>
